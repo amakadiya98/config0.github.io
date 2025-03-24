@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Config0</title>
+  <link href="./assets/css/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/aos.css" />
+  <link href="./assets/css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header  data-aos="fade-down">
+    <div class="custom-container">
+      <div class="flex justify-between items-center md:py-[56px] py-[30px] gap-[16px]">
+        <div class="flex xl:gap-[90px] md:gap-[30px] xs:gap-[20px] gap-[16px] items-center">
+          <a href="#"><img src="./assets/images/Logo.svg" alt="brand-logo" class="xl:w-[302px] sm:w-[200px] w-[150px]"/></a>
+          <div class="flex gap-[12px]">
+            <a href="https://docs.elasticdev.io/getting_started/" class="font-krub text-primary italic lg:text-lg sm:text-sm xs:text-xs text-[10px] sm:pb-2 pb-1 whitespace-nowrap hover:underline transition-all duration-300">
+              Getting Started</a>
+            <a href="#" class="font-krub text-primary italic lg:text-lg sm:text-sm xs:text-xs text-[10px] sm:pb-2 pb-1 whitespace-nowrap hover:underline transition-all duration-300">Documentation</a>
+          </div>
+        </div>
+        <div>
+          <button
+            class="font-quicksand md:text-sm xs:text-xs text-[10px] xl:w-[310px] md:w-[180px] xs:w-[80px] w-[50px] flex justify-center items-center text-white bg-primaryDark md:h-[40px] xs:h-[30px] h-[20px] p-2 rounded-[50px] font-normal xl:mt-0 mt-[-4px] hover:scale-[0.95] transition-all duration-300 hover:bg-primary">
+            login
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+ <section class="banner-section">
+    <div class="custom-container">
+      <div class="lg:w-[90%] w-full mx-auto">
+        <h2 class="font-medium text-primaryDark font-krub italic lg:text-[40px] sm:text-[30px] text-[22px] lg:w-[78%] w-full " data-aos="fade-left">
+          IaC platform with Docker-like workflow layers to package and ship developer solutions
+        </h2>
+        <h3 class="mt-4 font-medium text-primaryDark font-krub italic lg:text-[40px] sm:text-[30px] text-[22px]"  data-aos="fade-left">
+          (Join the Beta Testing)
+        </h3>
+        <p class="text-secondary font-krub italic font-normal lg:w-[40%] sm:w-[90%] w-full lg:text-lg sm:text-base text-sm mt-5"  data-aos="fade-left">
+          The ultimate <span class="font-bold text-primaryDark">IaC Management</span> platform for integrating your
+          Terraform, Ansible, and custom scripts into immutable workflow layers.
+        </p>
+        <div class="mt-[40px]">
+          <img src="./assets/images/banner-img.svg" alt="banner img" class="w-full"  data-aos="fade-up"/>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="common-spacing">
+    <div class='custom-container'>
+      <div class="sm:px-[56px] px-[24px] py-[30px] sm:py-[50px] md:rounded-[52px] sm:rounded-[24px] rounded-[16px] shadow-custom">
+        <div class="grid lg:grid-cols-2 grid-cols-1 lg: gap-0 gap-[40px] items-center">
+          <div  data-aos="fade-right">
+            <h3 class="lg:text-2xl sm:text-xl text-lg text-krub italic text-primary font-bold lg:w-[80%] w-full lgleading-[40px]">
+              Config0 is technology agnostic. It works with almost any developer tool
+            </h3>
+            <p class="mt-[30px] lg:w-[60%] w-full lg:text-lg sm:text-base text-sm text-secondary font-krub italic font-normal">
+              An open cloud platform for connecting developer tools to ship part or whole pieces: individual components
+              to complete developer solutions
+          </div>
+          <div class="flex justify-end pr-5"  data-aos="fade-left">
+            <img src='./assets/images/developer-tool.png' alt="developer tools" class="w-full" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="common-spacing">
+    <div class='custom-container'>
+      <div class="sm:px-[30px] lg:pt-[76px] lg:pb-[200px] sm:py-[40px] px-[24px] py-[30px] md:rounded-[52px] sm:rounded-[24px] rounded-[16px] shadow-custom">
+        <h3 class="font-medium text-primary font-krub italic lg:text-[40px] sm:text-[30px] text-[24px] text-center"  data-aos="fade-up">
+          What is a stack?
+        </h3>
+        <div class="grid lg:grid-cols-2 grid-cols-1 lg: gap-0 gap-[40px] md:mt-[64px] sm:mt-[40px] mt-[20px]">
+          <div class="flex justify-start pr-5"  data-aos="fade-left">
+            <img src='./assets/images/stack-img.png' alt="stack img" class="w-full" />
+          </div>
+          <div class="lg:pl-[80px] pl-0"  data-aos="fade-right">
+            <h3 class="lg:text-2xl sm:text-xl text-lg text-krub italic text-primary font-bold lg:leading-[40px]">
+              Stacks are micro workflows
+            </h3>
+            <h6 class="lg:text-lg text-base text-krub italic text-black font-bold lg:leading-[40px]">
+              Share automation with (nested) workflows
+            </h6>
+            <p class="mt-4 lg:text-lg sm:text-base text-sm font-krub italic font-normal text-black">
+              Place Terraform templates and shell/python scripts into an Github repository and glue them into nested
+              workflows.
+            </p>
+            <p class="mt-2 lg:text-lg sm:text-base text-sm font-krub italic font-normal text-black">
+              Create:
+            </p>
+            <ul id="list" class="mt-4 lg:w-[70%] w-full lg:text-lg sm:text-base text-sm font-krub italic font-normal text-black">
+              <li id="item-1"
+                class="relative pl-8 before:content-['✓'] before:absolute before:left-0 before:top-0 before:text-primary before:font-bold mt-2">
+                Immutable workflows
+              </li>
+              <li id="item-2"
+                class="relative pl-8 before:content-['✓'] before:absolute before:left-0 before:top-0 before:text-primary before:font-bold mt-2">
+                Deployable workflows
+              </li>
+              <li id="item-3"
+                class="relative pl-8 before:content-['✓'] before:absolute before:left-0 before:top-0 before:text-primary before:font-bold mt-2">
+                Reusable workflows
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="common-spacing">
+    <div class='custom-container'>
+      <div class="sm:px-[48px] lg:pt-[50px] lg:pb-[150px] sm:py-[40px] px-[24px] py-[30px] md:rounded-[52px] sm:rounded-[24px] rounded-[16px] shadow-custom">
+        <h3 class="font-medium text-primary font-krub italic lg:text-[40px] sm:text-[30px] text-[24px] text-center"  data-aos="fade-down">
+          What is a stack?
+        </h3>
+        <div class="grid lg:grid-cols-2 grid-cols-1 lg: gap-0 gap-[40px] md:mt-[64px] sm:mt-[40px] mt-[20px]">
+          <div class=""  data-aos="fade-right">
+            <h3 class="lg:text-2xl sm:text-xl text-lg text-krub italic text-primary font-bold lg:leading-[40px]">
+              #1 Stacks include the Last Mile
+            </h3>
+            <h6 class="lg:text-lg text-base text-krub italic text-black font-bold lg:leading-[40px]">
+              No more manual or semi-manual steps.
+            </h6>
+            <p class="mt-4 w-[88%] lg:text-lg sm:text-base text-sm font-krub italic font-normal text-black">
+              Stacks create a single entry point for comprehensive developer solutions
+            </p>
+            <p class="mt-2 lg:text-lg sm:text-base text-sm font-krub italic font-normal text-black">
+              Easily
+            </p>
+            <ul id="list" class="mt-4 lg:w-[70%] w-full lg:text-lg sm:text-base text-sm font-krub italic font-normal text-black">
+              <li id="item-1"
+                class="relative pl-8 before:content-['✓'] before:absolute before:left-0 before:top-0 before:text-primary before:font-bold mt-2">
+                implement end-to-end developer solutions
+              </li>
+              <li id="item-2"
+                class="relative pl-8 before:content-['✓'] before:absolute before:left-0 before:top-0 before:text-primary before:font-bold mt-2">
+                provide self-service developer solutions
+              </li>
+              <li id="item-3"
+                class="relative pl-8 before:content-['✓'] before:absolute before:left-0 before:top-0 before:text-primary before:font-bold mt-2">
+                increase development velocity
+              </li>
+            </ul>
+
+          </div>
+          <div class="flex justify-center pr-5"  data-aos="fade-left">
+            <img src='./assets/images/step1.png' alt="stack img" class="lg:pt-[80px]" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="common-spacing">
+    <div class='custom-container'>
+      <div class="sm:px-[40px] lg:pt-[130px] lg:pb-[150px] sm:py-[40px] px-[24px] py-[30px] md:rounded-[52px] sm:rounded-[24px] rounded-[16px] shadow-custom">
+        <div class="grid lg:grid-cols-2 grid-cols-1 lg: gap-0 gap-[40px] md:mt-[64px] sm:mt-[40px] mt-[20px]">
+          <div class="flex justify-center pr-5"  data-aos="fade-left">
+            <img src='./assets/images/step2.png' alt="stack img" />
+          </div>
+          <div class="lg:pl-[114px] pl-0"  data-aos="fade-right">
+            <h3 class="lg:text-2xl sm:text-xl text-lg text-krub italic text-primary font-bold lg:leading-[40px]">
+              #2 Stacks ensure security
+            </h3>
+            <h6 class="lg:text-lg text-base text-krub italic text-black font-bold lg:leading-[40px]">
+              No more unknown sources
+            </h6>
+            <p class="mt-4 w-[88%] lg:text-lg sm:text-base text-sm font-krub italic font-normal text-black">
+              Stacks are composed of other stacks (nested workflows)
+            </p>
+            <p class="mt-3 lg:text-lg sm:text-base text-sm font-krub italic font-normal text-black">
+              The components are recursively:
+            </p>
+            <ul id="list" class="mt-4 lg:w-[70%] w-full lg:text-lg sm:text-base text-sm font-krub italic font-normal text-black">
+              <li id="item-1"
+                class="relative pl-8 before:content-['✓'] before:absolute before:left-0 before:top-0 before:text-primary before:font-bold mt-2">
+                visualized through a graph
+              </li>
+              <li id="item-2"
+                class="relative pl-8 before:content-['✓'] before:absolute before:left-0 before:top-0 before:text-primary before:font-bold mt-2">
+                traced from sources to execution
+              </li>
+              <li id="item-3"
+                class="relative pl-8 before:content-['✓'] before:absolute before:left-0 before:top-0 before:text-primary before:font-bold mt-2">
+                validated for security audits
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="common-spacing">
+    <div class='custom-container'>
+      <div class="sm:px-[50px] lg:pt-[120px] lg:pb-[150px] sm:py-[40px] px-[24px] py-[30px] md:rounded-[52px] sm:rounded-[24px] rounded-[16px] shadow-custom">
+        <div class="grid lg:grid-cols-2 grid-cols-1 lg:gap-0 gap-[40px] items-start md:mt-[64px] sm:mt-[40px] mt-[20px]">
+
+          <div class=""  data-aos="fade-right">
+            <h3 class="lg:text-2xl sm:text-xl text-lg text-krub italic text-primary font-bold lg:leading-[40px]">
+              #3 Stacks are publishable
+            </h3>
+            <h6 class="lg:text-lg text-base text-krub italic text-black font-bold lg:leading-[40px]">
+              Complex automation workflows with ease.
+            </h6>
+            <p class="mt-4 lg:text-lg sm:text-base text-sm  font-krub italic font-normal text-black">
+              By layering through stacks, you have flexibility to customize and publish your automations.
+            </p>
+            <p class="mt-3 lg:text-lg sm:text-base text-sm font-krub italic font-normal text-black">
+              Stacks provide:
+            </p>
+            <ul id="list" class="mt-4 lg:w-[70%] w-full lg:text-lg sm:text-base text-sm font-krub italic font-normal text-black">
+              <li id="item-1"
+                class="relative pl-8 before:content-['✓'] before:absolute before:left-0 before:top-0 before:text-primary before:font-bold mt-2">
+                entry points to glue any developer tool
+              </li>
+              <li id="item-2"
+                class="relative pl-8 before:content-['✓'] before:absolute before:left-0 before:top-0 before:text-primary before:font-bold mt-2">
+                unlimited runtime environments
+              </li>
+              <li id="item-3"
+                class="relative pl-8 before:content-['✓'] before:absolute before:left-0 before:top-0 before:text-primary before:font-bold mt-2">
+                parallel executions (concurrency)
+              </li>
+            </ul>
+
+          </div>
+          <div  data-aos="fade-left">
+            <div class="flex xl:gap-[20px] gap-[10px] items-center lg:mt-[32px]">
+              <div>
+                <h6 class="xl:text-lg md:text-sm sm:text-xs text-[10px] font-normal text-krub italic text-primary xs:whitespace-nowrap">DevOps Engineers</h6>
+                <p class="xl:text-sm md:text-xs sm:text-[10px] text-[8px] text-light font-krub italic text-[#4F4F4F] xs:whitespace-nowrap">(Create automation)</p>
+              </div>
+              <img src="./assets/images/arrow.svg" alt="arrow" class="xl:w-[28px] sm:w-[20px] xs:w-[16px] w-[8px]"/>
+              <div>
+                <h6 class="xl:text-lg md:text-sm sm:text-xs text-[10px] font-normal text-krub italic text-primary xs:whitespace-nowrap">Abstraction</h6>
+                <p class="xl:text-sm md:text-xs sm:text-[10px] text-[8px] text-light font-krub italic text-[#4F4F4F] xs:whitespace-nowrap"> (More Opinonated/Hierarchy)</p>
+              </div>
+              <img src="./assets/images/arrow.svg" alt="arrow"  class="xl:w-[28px] sm:w-[20px]  xs:w-[16px] w-[8px]"/>
+              <div>
+                <h6 class="xl:text-lg md:text-sm sm:text-xs text-[10px] font-normal text-krub italic text-primary xs:whitespace-nowrap">Developers</h6>
+                <p class="xl:text-sm md:text-xs sm:text-[10px] text-[8px] text-light font-krub italic text-[#4F4F4F] xs:whitespace-nowrap"> (Use Automation)</p>
+              </div>
+            </div>
+            <div class="flex justify-center pr-5 mt-[56px]">
+              <img src='./assets/images/step3.png' alt="stack img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="custom-container">
+      <div class="pt-[40px] pb-[118px] w-[90%] mx-auto"  data-aos="fade-left">
+        <div><a href="https://docs.config0.com/" class="underline font-bold font-krub text-black lg:text-2xl sm:text-xl text-lg hover:text-primary transition-all duration-300">Getting started</a></div>
+        <div><a href="" class="underline font-normal font-krub text-primary lg:text-2xl sm:text-xl text-lg hover:text-black transition-all duration-300"> Sign Up</a></div>
+         <p class="lg:mt-[40px] sm:mt-[30px] mt-[20px] font-bold font-krub text-primary lg:text-2xl sm:text-xl text-lg">Config0, Inc </p>
+        <a href="mailto:info@config0.com" class="font-bold font-krub text-black lg:text-2xl sm:text-xl text-lg  hover:text-primary transition-all duration-300 hover:underline"> info@config0.com</a>
+        <div class="flex items-center sm:gap-[30px] gap-[20px] lg:mt-[40px] sm:mt-[30px] mt-[20px] sm:flex-nowrap flex-wrap">
+          <p class="lg:text-lg sm:text-base text-sm font-semibold font-krub text-black">© 2025 Config0 Inc</p>
+          <a href="#" class="lg:text-lg sm:text-base text-sm font-semibold font-krub text-black  hover:text-primary transition-all duration-300 hover:underline">Terms and Conditions</a>
+          <a href="#" class="lg:text-lg sm:text-base text-sm font-semibold font-krub text-black  hover:text-primary transition-all duration-300 hover:underline">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+<script src="./assets/js/aos.js"></script>
+<script src="./assets/js/tailwind.js"></script>
+<script src="./assets/js/index.js"></script>
+
+</html>
