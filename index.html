@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./assets/images/favicon.ico" sizes="any">
   <title>Config0</title>
   <link href="./assets/css/tailwind.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="./assets/css/aos.css" />
@@ -17,16 +18,18 @@
         <div class="flex xl:gap-[90px] md:gap-[30px] xs:gap-[20px] gap-[16px] items-center">
           <a href="#"><img src="./assets/images/Logo.svg" alt="brand-logo" class="xl:w-[302px] sm:w-[200px] w-[150px]"/></a>
           <div class="flex gap-[12px]">
-            <a href="https://docs.elasticdev.io/getting_started/" class="font-krub text-primary italic lg:text-lg sm:text-sm xs:text-xs text-[10px] sm:pb-2 pb-1 whitespace-nowrap hover:underline transition-all duration-300">
+            <a href="https://docs.config0.com/getting_started/"  target="_blank"  class="font-krub text-primary italic lg:text-lg sm:text-sm xs:text-xs text-[10px] sm:pb-2 pb-1 whitespace-nowrap hover:underline transition-all duration-300">
               Getting Started</a>
-            <a href="#" class="font-krub text-primary italic lg:text-lg sm:text-sm xs:text-xs text-[10px] sm:pb-2 pb-1 whitespace-nowrap hover:underline transition-all duration-300">Documentation</a>
+            <a href="https://docs.config0.com/"  target="_blank"  class="font-krub text-primary italic lg:text-lg sm:text-sm xs:text-xs text-[10px] sm:pb-2 pb-1 whitespace-nowrap hover:underline transition-all duration-300">Documentation</a>
           </div>
         </div>
         <div>
+          <a href="https://app.config0.com/" target="_blank" >
           <button
             class="font-quicksand md:text-sm xs:text-xs text-[10px] xl:w-[310px] md:w-[180px] xs:w-[80px] w-[50px] flex justify-center items-center text-white bg-primaryDark md:h-[40px] xs:h-[30px] h-[20px] p-2 rounded-[50px] font-normal xl:mt-0 mt-[-4px] hover:scale-[0.95] transition-all duration-300 hover:bg-primary">
             login
           </button>
+          </a>
         </div>
       </div>
     </div>
@@ -117,10 +120,10 @@
     <div class='custom-container'>
       <div class="sm:px-[48px] lg:pt-[50px] lg:pb-[150px] sm:py-[40px] px-[24px] py-[30px] md:rounded-[52px] sm:rounded-[24px] rounded-[16px] shadow-custom">
         <h3 class="font-medium text-primary font-krub italic lg:text-[40px] sm:text-[30px] text-[24px] text-center"  data-aos="fade-down">
-          What is a stack?
+          Why the stack?
         </h3>
         <div class="grid lg:grid-cols-2 grid-cols-1 lg: gap-0 gap-[40px] md:mt-[64px] sm:mt-[40px] mt-[20px]">
-          <div class=""  data-aos="fade-right">
+          <div class="order-2 lg:order-1"  data-aos="fade-right">
             <h3 class="lg:text-2xl sm:text-xl text-lg text-krub italic text-primary font-bold lg:leading-[40px]">
               #1 Stacks include the Last Mile
             </h3>
@@ -149,7 +152,7 @@
             </ul>
 
           </div>
-          <div class="flex justify-center pr-5"  data-aos="fade-left">
+          <div class="flex justify-center pr-5 order-1 lg:order-2 "  data-aos="fade-left">
             <img src='./assets/images/step1.png' alt="stack img" class="lg:pt-[80px]" />
           </div>
         </div>
@@ -161,7 +164,7 @@
       <div class="sm:px-[40px] lg:pt-[130px] lg:pb-[150px] sm:py-[40px] px-[24px] py-[30px] md:rounded-[52px] sm:rounded-[24px] rounded-[16px] shadow-custom">
         <div class="grid lg:grid-cols-2 grid-cols-1 lg: gap-0 gap-[40px] md:mt-[64px] sm:mt-[40px] mt-[20px]">
           <div class="flex justify-center pr-5"  data-aos="fade-left">
-            <img src='./assets/images/step2.png' alt="stack img" />
+            <img src='./assets/images/step2.png' alt="stack img" class="w-full"/>
           </div>
           <div class="lg:pl-[114px] pl-0"  data-aos="fade-right">
             <h3 class="lg:text-2xl sm:text-xl text-lg text-krub italic text-primary font-bold lg:leading-[40px]">
@@ -202,7 +205,7 @@
       <div class="sm:px-[50px] lg:pt-[120px] lg:pb-[150px] sm:py-[40px] px-[24px] py-[30px] md:rounded-[52px] sm:rounded-[24px] rounded-[16px] shadow-custom">
         <div class="grid lg:grid-cols-2 grid-cols-1 lg:gap-0 gap-[40px] items-start md:mt-[64px] sm:mt-[40px] mt-[20px]">
 
-          <div class=""  data-aos="fade-right">
+          <div class="order-2 lg:order-1"  data-aos="fade-right">
             <h3 class="lg:text-2xl sm:text-xl text-lg text-krub italic text-primary font-bold lg:leading-[40px]">
               #3 Stacks are publishable
             </h3>
@@ -231,7 +234,7 @@
             </ul>
 
           </div>
-          <div  data-aos="fade-left">
+          <div class="order-1 lg:order-2" data-aos="fade-left">
             <div class="flex xl:gap-[20px] gap-[10px] items-center lg:mt-[32px]">
               <div>
                 <h6 class="xl:text-lg md:text-sm sm:text-xs text-[10px] font-normal text-krub italic text-primary xs:whitespace-nowrap">DevOps Engineers</h6>
@@ -259,14 +262,14 @@
   <footer>
     <div class="custom-container">
       <div class="pt-[40px] pb-[118px] w-[90%] mx-auto"  data-aos="fade-left">
-        <div><a href="https://docs.config0.com/" class="underline font-bold font-krub text-black lg:text-2xl sm:text-xl text-lg hover:text-primary transition-all duration-300">Getting started</a></div>
-        <div><a href="" class="underline font-normal font-krub text-primary lg:text-2xl sm:text-xl text-lg hover:text-black transition-all duration-300"> Sign Up</a></div>
+        <div><a href="https://docs.config0.com/getting_started/"  target="_blank" class="underline font-bold font-krub text-black lg:text-2xl sm:text-xl text-lg hover:text-primary transition-all duration-300">Getting started</a></div>
+        <div><a href="https://app.config0.com/"  target="_blank" class="underline font-normal font-krub text-primary lg:text-2xl sm:text-xl text-lg hover:text-black transition-all duration-300"> Sign Up</a></div>
          <p class="lg:mt-[40px] sm:mt-[30px] mt-[20px] font-bold font-krub text-primary lg:text-2xl sm:text-xl text-lg">Config0, Inc </p>
-        <a href="mailto:info@config0.com" class="font-bold font-krub text-black lg:text-2xl sm:text-xl text-lg  hover:text-primary transition-all duration-300 hover:underline"> info@config0.com</a>
+        <a href="mailto:info@config0.com"  target="_blank" class="font-bold font-krub text-black lg:text-2xl sm:text-xl text-lg  hover:text-primary transition-all duration-300 hover:underline"> info@config0.com</a>
         <div class="flex items-center sm:gap-[30px] gap-[20px] lg:mt-[40px] sm:mt-[30px] mt-[20px] sm:flex-nowrap flex-wrap">
           <p class="lg:text-lg sm:text-base text-sm font-semibold font-krub text-black">© 2025 Config0 Inc</p>
-          <a href="#" class="lg:text-lg sm:text-base text-sm font-semibold font-krub text-black  hover:text-primary transition-all duration-300 hover:underline">Terms and Conditions</a>
-          <a href="#" class="lg:text-lg sm:text-base text-sm font-semibold font-krub text-black  hover:text-primary transition-all duration-300 hover:underline">Privacy Policy</a>
+          <a href="./termsAndConditions.html" target="_blank" class="lg:text-lg sm:text-base text-sm font-semibold font-krub text-black  hover:text-primary transition-all duration-300 hover:underline">Terms and Conditions</a>
+          <a href="./privacyPolicy.html" target="_blank" class="lg:text-lg sm:text-base text-sm font-semibold font-krub text-black  hover:text-primary transition-all duration-300 hover:underline">Privacy Policy</a>
         </div>
       </div>
     </div>
